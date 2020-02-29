@@ -179,6 +179,3 @@ fabric.properties
 
 ### Disable Jetbrains
 .idea/*
-
-### Disable Additional Node files
-package-lock.json
