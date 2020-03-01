@@ -1,0 +1,12 @@
+input.button
+{
+    background-color: inherit;
+    color: inherit;
+    border: inherit;
+    font-size: inherit;
+    cursor: pointer;
+}
+input.button:hover
+{
+    text-decoration: underline;
+}
