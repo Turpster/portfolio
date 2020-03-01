@@ -20,6 +20,11 @@ export default class Banner extends React.Component
     constructor(props) {
         super(props);
 
+        if (this.props.img)
+        {
+            this.img = "url(\"" + this.props.img + "\")"
+        }
+
         this.children = this.props.widthContain ?
             <WidthContainer>
                 {this.props.children}
@@ -30,7 +35,7 @@ export default class Banner extends React.Component
 
     render() {
         return (
-            <div className={"banner"} style={{'background-image': 'url("' + this.props.img + '"'}}>
+            <div className={"banner"} style={{'backgroundImage': this.img}}>
                 {this.children}
             </div>
         )
