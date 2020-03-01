@@ -1,0 +1,7 @@
+.width-container
+{
+    padding: 0 10px;
+    min-width: 600px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
