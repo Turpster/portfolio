@@ -9,12 +9,16 @@ export default class Banner extends React.Component
 {
     static propTypes = {
         widthContain: PropTypes.bool,
-        img: PropTypes.string
+        img: PropTypes.string,
+        backgroundColor: PropTypes.string,
+        color: PropTypes.string
     };
 
     static defaultProps = {
         widthContain: true,
-        img: undefined
+        img: undefined,
+        backgroundColor: undefined,
+        color: undefined
     };
 
     constructor(props) {
@@ -23,6 +27,11 @@ export default class Banner extends React.Component
         if (this.props.img)
         {
             this.img = "url(\"" + this.props.img + "\")"
+
+            if (this.props.backgroundColor)
+            {
+                throw new Error("Cannot have background color and background image at the same time")
+            }
         }
 
         this.children = this.props.widthContain ?
@@ -35,7 +44,7 @@ export default class Banner extends React.Component
 
     render() {
         return (
-            <div className={"banner"} style={{'backgroundImage': this.img}}>
+            <div className={"banner"} style={{'backgroundImage': this.img, 'backgroundColor': this.props.backgroundColor, 'color': this.props.color}}>
                 {this.children}
             </div>
         )
