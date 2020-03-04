@@ -1,6 +1,7 @@
 .banner
 {
-    padding: 5px;
+    /*padding: 5px; !* TODO Perhaps convert this value into a prop *!*/
     background-color: black;
     color: white;
+    background-size: cover;
 }
