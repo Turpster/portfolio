@@ -3,5 +3,8 @@
     padding: 0 10px;
     min-width: 600px;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: auto;
+    height: 100%;
+    display: grid;
+    justify-self: center;
 }
