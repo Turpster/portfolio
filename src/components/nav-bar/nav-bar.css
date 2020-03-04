@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:500&display=swap');
+.nav-bar
+{
+    font-family: "Ubuntu", sans-serif;
+    position: sticky;
+    float: left;
+    width: 100%;
+    top: 0;
+}
+.nav-bar .heading
+{
+    border-top: 5px solid transparent;
+}
+.nav-bar h1.heading
+{
+    font-weight: 500;
+}
+.nav-bar .subtitle
+{
+    font-style: normal;
+}
+.nav-bar .button
+{
+    font-size: 18px;
+    padding: 0 15px;
+    border-top: 5px solid transparent;
+}
+.nav-bar .button:hover
+{
+    border-top: 5px solid #3498db;
+}
+.nav-bar .heading:hover
+{
+    border-top: 5px solid #3498db;
+}
+.nav-bar h1.heading
+{
+    font-size: 30px;
+}
