@@ -1,0 +1,6 @@
+.vertical-separator
+{
+    margin: auto 10px;
+    border-right: 2px solid black;
+    height: 100%;
+}
