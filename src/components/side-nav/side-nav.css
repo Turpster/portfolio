@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=VT323&display=swap');
-ul.navigation-bar
+ul.side-nav
 {
     --nav-bar-y-margin: 50px;
     --nav-bar-delay: 0;
@@ -16,21 +16,21 @@ ul.navigation-bar
     position: absolute;
     overflow: hidden;
 }
-ul.navigation-bar *
+ul.side-nav *
 {
     text-align: right;
     margin: 10px 0;
     font-family: "VT323", monospace;
 }
-ul.navigation-bar *:first-child
+ul.side-nav *:first-child
 {
     margin-top: 0;
 }
-ul.navigation-bar *:last-child
+ul.side-nav *:last-child
 {
     margin-bottom: 0;
 }
-ul.navigation-bar li
+ul.side-nav li
 {
     text-transform: uppercase;
     font-size: 30px;

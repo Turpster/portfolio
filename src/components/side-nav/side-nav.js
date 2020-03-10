@@ -1,11 +1,11 @@
 import React from 'react'
 import "./side-nav.css"
 
-export default class NavigationBar extends React.Component
+export default class SideNav extends React.Component
 {
     render() {
         return (
-            <ul className={"navigation-bar"}>
+            <ul className={"side-nav"}>
                 <h1>Portfolio</h1>
                 <li><a href={"#about"}>About</a></li>
                 <li><a href={"#projects"}>Projects</a></li>
