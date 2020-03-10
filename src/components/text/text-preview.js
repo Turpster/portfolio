@@ -10,8 +10,6 @@ export default class TextPreview extends React.Component
             <WidthContainer>
                 <Heading level={1}>Heading 1</Heading>
                 <Paragraph>
-
-
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis purus urna, sodales non quam accumsan,
                     consequat posuere mi. Ut cursus finibus enim, at iaculis sem auctor at. Praesent non enim id eros
                     sollicitudin finibus. Aenean condimentum hendrerit eros quis ultrices. Maecenas gravida nisi at
@@ -19,13 +17,6 @@ export default class TextPreview extends React.Component
                     sollicitudin dictum tellus, quis faucibus enim sodales ac. Phasellus id felis sed lectus
                     sollicitudin pulvinar quis vel est. Ut consectetur tempor bibendum. Nulla non felis mi. Donec
                     euismod porttitor diam.
-
-
-
-
-
-
-
                 </Paragraph>
                 <Heading level={2}>Heading 2</Heading>
                 <Paragraph>
