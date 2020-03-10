@@ -5,30 +5,30 @@
 h1.heading
 {
     font-size: 36px;
-    margin: 20px 0;
+    margin: 16px 0;
 }
 h2.heading
 {
     font-size: 30px;
-    margin: 16px 0;
+    margin: 14px 0;
 }
 h3.heading
 {
     font-size: 24px;
-    margin: 14px 0;
+    margin: 10px 0;
 }
 h4.heading
 {
     font-size: 20px;
-    margin: 12px 0;
+    margin: 8px 0;
 }
 h5.heading
 {
     font-size: 18px;
-    margin: 10px 0;
+    margin: 6px 0;
 }
 h6.heading
 {
     font-size: 16px;
-    margin: 8px 0;
+    margin: 4px 0;
 }
