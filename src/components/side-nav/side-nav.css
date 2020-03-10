@@ -2,9 +2,9 @@
 ul.side-nav
 {
     --nav-bar-y-margin: 50px;
-    --nav-bar-delay: 0;
+    --nav-bar-y-delay: 0;
 
-    margin: var(--nav-bar-delay) 0 0;
+    margin: var(--nav-bar-y-delay) 0 0;
 
     padding: 5px 10px 5px 0;
     border-right: 2px solid rgba(0, 0, 0, 0.4);
