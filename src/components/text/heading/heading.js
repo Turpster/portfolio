@@ -9,17 +9,21 @@ import Text from "../text";
 
 export default class Heading extends React.Component
 {
+    static FontType = {serif: "serif", sansSerif: "sans-serif"};
+
     static propTypes = {
         level: PropTypes.number.isRequired,
         style: PropTypes.arrayOf({
             k0: PropTypes.string,
             k1: PropTypes.string
-        })
+        }),
+        fontType: PropTypes.string
     };
 
     static defaultProps = {
         level: 1,
-        style: undefined
+        style: undefined,
+        fontType: Heading.FontType.serif
     };
 
     constructor(props) {
@@ -68,8 +72,8 @@ export default class Heading extends React.Component
 
     render() {
         return (
-            <Text className={"heading"} style={{...this.props.style}}>
-                {this.props.children}
+            <Text className={this.props.fontType ? "heading " + this.props.fontType : "heading"} style={{...this.props.style}}>
+                {this.heading}
             </Text>
         )
     }

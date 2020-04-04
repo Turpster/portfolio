@@ -1,4 +1,13 @@
-p.paragraph
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+.paragraph.serif
+{
+    font-family: "Merriweather", serif;
+}
+.paragraph.sans-serif
+{
+    font-family: "Ubuntu", sans-serif;
+}
+.paragraph
 {
     margin: 15px 0;
 }

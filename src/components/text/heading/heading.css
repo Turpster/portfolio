@@ -1,6 +1,12 @@
-.heading
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Ubuntu&display=swap');
+.heading.serif
 {
-
+    font-family: "Merriweather", serif;
+    letter-spacing: 1px;
+}
+.heading.sans-serif
+{
+    font-family: "Ubuntu", sans-serif;
 }
 h1.heading
 {
