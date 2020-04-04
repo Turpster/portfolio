@@ -4,6 +4,7 @@ import '../text.css'
 import './paragraph.css'
 
 import PropTypes from 'prop-types'
+import Text from "../text";
 
 export default class Paragraph extends React.Component
 {
@@ -20,9 +21,11 @@ export default class Paragraph extends React.Component
 
     render() {
         return (
-            <p className={"text paragraph"} style={{...this.props.style}}>
-                {this.props.children}
-            </p>
+            <Text className={"paragraph"} style={{...this.props.style}}>
+                <p>
+                    {this.props.children}
+                </p>
+            </Text>
         )
     }
 }

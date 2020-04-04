@@ -5,6 +5,8 @@ import './heading.css'
 
 import PropTypes from 'prop-types'
 
+import Text from "../text";
+
 export default class Heading extends React.Component
 {
     static propTypes = {
@@ -27,37 +29,37 @@ export default class Heading extends React.Component
         {
             default:
                 this.heading =
-                        <h1 className={"text heading"} style={{...this.props.style}}>
+                        <h1>
                             {this.props.children}
                         </h1>;
                 break;
             case 2:
                 this.heading =
-                        <h2 className={"text heading"} style={{...this.props.style}}>
+                        <h2>
                             {this.props.children}
                         </h2>;
                 break;
             case 3:
                 this.heading =
-                        <h3 className={"text heading"} style={{...this.props.style}}>
+                        <h3>
                             {this.props.children}
                         </h3>;
                 break;
             case 4:
                 this.heading =
-                        <h4 className={"text heading"} style={{...this.props.style}}>
+                        <h4>
                             {this.props.children}
                         </h4>;
                 break;
             case 5:
                 this.heading =
-                        <h5 className={"text heading"} style={{...this.props.style}}>
+                        <h5>
                             {this.props.children}
                         </h5>;
                 break;
             case 6:
                 this.heading =
-                        <h6 className={"text heading"} style={{...this.props.style}}>
+                        <h6>
                             {this.props.children}
                         </h6>;
                 break;
@@ -65,6 +67,10 @@ export default class Heading extends React.Component
     }
 
     render() {
-        return this.heading;
+        return (
+            <Text className={"heading"} style={{...this.props.style}}>
+                {this.props.children}
+            </Text>
+        )
     }
 }
