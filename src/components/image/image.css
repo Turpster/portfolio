@@ -1,0 +1,9 @@
+.image
+{
+    display: inline-block;
+    mask-size: contain;
+}
+.svg-contain-image
+{
+    visibility: hidden;
+}
