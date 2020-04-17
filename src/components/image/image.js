@@ -6,7 +6,7 @@ import PropTypes from 'prop-types'
 
 export default class Image extends React.Component
 {
-    static propsTypes = {
+    static propTypes = {
         src: PropTypes.string.isRequired,
         alt: PropTypes.string.isRequired,
 
