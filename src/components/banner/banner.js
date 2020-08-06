@@ -9,16 +9,18 @@ export default class Banner extends React.Component
         style: PropTypes.arrayOf({
             k0: PropTypes.string,
             k1: PropTypes.string
-        })
+        }),
+        padding: PropTypes.bool
     };
 
     static defaultProps = {
-        style: undefined
+        style: undefined,
+        padding: true
     };
 
     render() {
         return (
-            <div className={"banner"} style={{...this.props.style}}>
+            <div className={"banner" + (this.props.padding ? " banner-padding" : "")} style={{...this.props.style}}>
                 {this.props.children}
             </div>
         )

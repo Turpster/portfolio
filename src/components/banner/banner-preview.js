@@ -15,7 +15,7 @@ export default class BannerPreview extends React.Component
                             Banner Preview
                         </Heading>
                         <Paragraph>
-                            asdasdasdasd
+                            This is an example of a banner
                         </Paragraph>
                     </WidthContainer>
                 </Banner>

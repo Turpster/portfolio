@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 .banner
 {
-    padding: 10px 0;
     background-color: black;
     color: white;
+}
+.banner-padding
+{
+    padding: 10px 0;
 }
