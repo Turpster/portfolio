@@ -2,3 +2,14 @@
 {
 
 }
+.text a
+{
+    border-bottom: 1px ridge yellow;
+    cursor: pointer;
+    transition: 0.15s linear;
+}
+.text a:hover
+{
+    transition: 0.15s linear;
+    border-bottom: 3px ridge yellow;
+}
