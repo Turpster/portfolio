@@ -25,7 +25,7 @@ export default class ButtonPreview extends React.Component
                     <Paragraph>
                         We store cookies on your web browser.
                     </Paragraph>
-                        <Button onClick={() => {this.setState({hidden: true})}}/>
+                        <Button theme="light" onClick={() => {this.setState({hidden: true})}}/>
                     </WidthContainer>
                 </Banner>
         )

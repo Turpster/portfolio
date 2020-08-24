@@ -11,7 +11,7 @@ export default class ImagePreview extends React.Component
         return (
             <Banner>
                 <WidthContainer>
-                    <Image src={GithubIcon} height={"50px"}/>
+                    <Image src={GithubIcon} height={"50px"} theme={"light"}/>
                 </WidthContainer>
             </Banner>
         )

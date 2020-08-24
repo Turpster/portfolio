@@ -3,6 +3,14 @@
     display: inline-block;
     mask-size: contain;
 }
+.image-light
+{
+    background-color: #ffffff;
+}
+.image-dark
+{
+    background-color: #000000;
+}
 .svg-contain-image
 {
     visibility: hidden;

@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 .banner
 {
-    background-color: black;
-    color: white;
-    
     background-position: center;
     background-size: cover;
+}
+.banner-dark
+{
+    background-color: black;
+    color: white;
+}
+.banner-light
+{
+    background-color: black;
+    color: white;
 }
 .banner-padding
 {

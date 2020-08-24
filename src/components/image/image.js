@@ -7,6 +7,8 @@ import PropTypes from 'prop-types'
 export default class Image extends React.Component
 {
     static propTypes = {
+        theme: PropTypes.string,
+
         src: PropTypes.string.isRequired,
         alt: PropTypes.string.isRequired,
 
@@ -23,6 +25,8 @@ export default class Image extends React.Component
     };
 
     static defaultProps = {
+        theme: "dark",
+
         src: undefined,
         alt: undefined,
 
@@ -31,15 +35,13 @@ export default class Image extends React.Component
 
         width: undefined,
         height: undefined,
-
-        svgColor: "white"
     };
 
     render() {
 
         let image;
 
-        let imageClass = this.props.className ? this.props.className + " image" : "image";
+        let imageClass = (this.props.className ? this.props.className + " image" : "image") + " image-" + this.props.theme;
 
         if (this.props.src.toLowerCase().endsWith(".svg"))
         {
