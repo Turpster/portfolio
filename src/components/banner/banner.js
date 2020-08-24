@@ -25,14 +25,4 @@ export default class Banner extends React.Component
             </div>
         )
     }
-
-    /**
-     * @returns {Banner} Background banner
-     */
-    static backgroundBanner(imageUrl, color, children)
-    {
-        this.bannerRef = React.createRef();
-
-        return <Banner style={{"backgroundImage": "url(" + imageUrl + ")", "color": color}} ref={this.bannerRef}>{children}</Banner>
-    }
 }
