@@ -3,6 +3,9 @@
 {
     background-color: black;
     color: white;
+    
+    background-position: center;
+    background-size: cover;
 }
 .banner-padding
 {
