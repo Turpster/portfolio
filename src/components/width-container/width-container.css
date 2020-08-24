@@ -4,4 +4,6 @@
     min-width: var(--minimum-width);
     max-width: var(--maximum-width);
     margin: 0 auto;
+
+    padding: 0;
 }
