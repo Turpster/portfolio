@@ -1,7 +1,7 @@
 import React from 'react';
 import SideNav from "./side-nav";
 
-export default class SideNavPreview extends React.Component
+export default class PageComponentSideNavPreview extends React.Component
 {
     render() {
         return (
