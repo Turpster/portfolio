@@ -1,0 +1,27 @@
+.text-box-light
+{
+
+}
+.text-box-dark
+{
+
+}
+.text-box
+{
+    cursor: text;
+}
+.text-box-light:focus.text-box
+{
+    padding: 6px 10px;
+    border: 2px solid rgba(255, 213, 0, 0.8);
+    margin-bottom: 2px;
+}
+.text-box-dark:focus.text-box
+{
+    padding: 6px 10px;
+    border: 2px solid rgb(255, 140, 0);
+    margin-bottom: 2px;
+}
+.text-area
+{
+}

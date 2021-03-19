@@ -1,0 +1,21 @@
+input
+{
+    border-radius: 5px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    padding: 7px 11px;
+    margin: 2px;
+}
+
+input.input-dark,textarea.input-light
+{
+    border-color: #d4d4d4;
+    background-color: white;
+    color: black;
+}
+input.input-dark,textarea.input-dark
+{
+    border-color: #343434;
+    background-color: black;
+    color: white;
+}
