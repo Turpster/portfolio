@@ -7,8 +7,6 @@ import Paragraph from "../../text/paragraph/paragraph";
 
 export default class ButtonPreview extends React.Component
 {
-    bannerRef;
-
     constructor(props) {
         super(props);
         this.state = {
@@ -17,9 +15,8 @@ export default class ButtonPreview extends React.Component
     }
 
     render() {
-        this.bannerRef =  React.createRef();
         return (
-                <Banner ref={this.bannerRef} style={this.state.hidden ? {display: "none"} : ""}>
+                <Banner style={this.state.hidden ? {display: "none"} : ""}>
                     <WidthContainer>
                     <Heading level={1}>Cookies</Heading>
                     <Paragraph>

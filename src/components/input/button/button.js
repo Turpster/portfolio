@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import "../input.css"
 import "./button.css"
 
 export default class Button extends React.Component
@@ -16,6 +17,6 @@ export default class Button extends React.Component
     }
 
     render() {
-        return <input className={"button button-" + this.props.theme} type="button" value={this.props.children} onClick={this.props.onClick}/>;
+        return <input className={"button input-" + this.props.theme + " button-" + this.props.theme} type="button" value={this.props.children} onClick={this.props.onClick}/>;
     }
 }
